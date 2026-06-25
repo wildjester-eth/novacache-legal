@@ -1,50 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Legal — NovaCache</title>
-<link rel="stylesheet" href="_base.css">
-<style>
-.card-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1rem; margin-top: 1.5rem; }
-.card { background: #fff; border: 1px solid #e5e5e5; border-radius: 8px; padding: 1.5rem; text-decoration: none; color: inherit; transition: box-shadow .15s; }
-.card:hover { box-shadow: 0 4px 16px rgba(0,0,0,.08); border-color: #c9a96e; }
-.card h2 { border: none; padding: 0; margin: 0 0 .4rem; font-size: 1.1rem; }
-.card p { margin: 0; font-size: .88rem; color: #777; }
-</style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NovaCache — Original Designs for Everyday Life</title>
+  <meta name="description" content="NovaCache crafts original art, apparel, drinkware, and accessories — fresh designs, made to order, shipped worldwide. Shop the collection on Etsy.">
+  <meta property="og:title" content="NovaCache — Original Designs for Everyday Life">
+  <meta property="og:description" content="Original art, apparel & home goods, made to order. Shop on Etsy.">
+  <meta property="og:type" content="website">
+  <style>
+    :root{
+      --navy:#141a2e; --navy2:#0f1424; --panel:#1f2945; --line:#2b3760;
+      --cyan:#00ffee; --green:#00cc66; --amber:#ffaa00;
+      --text:#eaf0fb; --mute:#9db0d6;
+    }
+    *{box-sizing:border-box;margin:0;padding:0}
+    html{scroll-behavior:smooth}
+    body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;
+      background:var(--navy);color:var(--text);line-height:1.6;-webkit-font-smoothing:antialiased}
+    a{color:var(--cyan);text-decoration:none}
+    .wrap{max-width:1080px;margin:0 auto;padding:0 24px}
+    header{padding:22px 0;position:relative;z-index:2}
+    .brand{font-weight:800;font-size:24px;letter-spacing:.4px}
+    .brand b{color:var(--cyan)}
+    .hero{position:relative;text-align:center;padding:96px 0 72px;overflow:hidden;
+      background:
+        radial-gradient(900px 420px at 50% -8%, rgba(0,255,238,.16), transparent 60%),
+        radial-gradient(700px 360px at 85% 10%, rgba(255,170,0,.10), transparent 60%),
+        linear-gradient(180deg, var(--navy), var(--navy2));}
+    .hero h1{font-size:clamp(38px,6.4vw,70px);font-weight:800;line-height:1.08;margin-bottom:20px;letter-spacing:-.5px}
+    .hero h1 .accent{background:linear-gradient(90deg,var(--cyan),var(--amber));
+      -webkit-background-clip:text;background-clip:text;color:transparent}
+    .hero p{font-size:clamp(17px,2.3vw,21px);color:var(--mute);max-width:660px;margin:0 auto 36px}
+    .btn{display:inline-block;background:linear-gradient(90deg,var(--cyan),var(--green));
+      color:#06121f;font-weight:800;padding:16px 36px;border-radius:44px;font-size:18px;
+      box-shadow:0 8px 30px rgba(0,255,238,.18);transition:transform .15s,opacity .15s}
+    .btn:hover{transform:translateY(-2px);opacity:.95}
+    section.cats{padding:64px 0 16px}
+    h2{text-align:center;font-size:clamp(26px,3.4vw,34px);font-weight:800;margin-bottom:8px}
+    .sub{text-align:center;color:var(--mute);margin-bottom:38px}
+    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:20px}
+    .card{background:var(--panel);border:1px solid var(--line);border-radius:18px;
+      padding:32px 24px;text-align:center;transition:transform .15s,border-color .15s}
+    .card:hover{transform:translateY(-3px);border-color:var(--cyan)}
+    .card .ico{font-size:42px;line-height:1}
+    .card h3{margin:14px 0 6px;font-size:19px}
+    .card p{color:var(--mute);font-size:14.5px}
+    .band{text-align:center;padding:72px 0}
+    .band p{color:var(--mute);margin-bottom:28px}
+    footer{border-top:1px solid var(--line);padding:40px 0;color:var(--mute);font-size:14px}
+    .links{text-align:center;margin-bottom:16px}
+    .links a{margin:0 12px;color:var(--mute)}
+    .links a:hover{color:var(--cyan)}
+    .disc{text-align:center;font-size:13px;opacity:.85}
+  </style>
 </head>
 <body>
-<div class="wrap">
-  <header>
-    <span class="brand">NovaCache</span>
-    <h1>Legal &amp; Policies</h1>
-    <p class="meta">Effective: January 1, 2025 &nbsp;|&nbsp; Contact: <a href="mailto:christopher.d.raymond@gmail.com">christopher.d.raymond@gmail.com</a></p>
-  </header>
+  <header><div class="wrap"><div class="brand">Nova<b>Cache</b></div></div></header>
 
-  <p>These documents govern your use of NovaCache products and services across all platforms where we sell, including Etsy, Gumroad, and Printify-fulfilled products.</p>
+  <section class="hero"><div class="wrap">
+    <h1>Original designs for<br><span class="accent">everyday life</span></h1>
+    <p>NovaCache crafts original art, apparel, and home goods — fresh designs, made to order, and shipped worldwide.</p>
+    <a class="btn" href="https://www.etsy.com/shop/NovaCache" target="_blank" rel="noopener">Shop on Etsy &rarr;</a>
+  </div></section>
 
-  <div class="card-grid">
-    <a class="card" href="privacy-policy.html">
-      <h2>Privacy Policy</h2>
-      <p>How we collect, use, and protect your personal information. GDPR &amp; CCPA compliant.</p>
-    </a>
-    <a class="card" href="terms-of-service.html">
-      <h2>Terms of Service</h2>
-      <p>Rules governing purchases, use of our digital products, and intellectual property.</p>
-    </a>
-    <a class="card" href="refund-policy.html">
-      <h2>Refund &amp; Return Policy</h2>
-      <p>Refund terms for digital downloads and print-on-demand physical products.</p>
-    </a>
-    <a class="card" href="ai-disclosure.html">
-      <h2>AI &amp; Copyright Disclosure</h2>
-      <p>How our designs are created using AI tools and what that means for your purchase.</p>
-    </a>
-  </div>
+  <section class="cats"><div class="wrap">
+    <h2>What we make</h2>
+    <p class="sub">200+ original designs across the things you use and wear every day.</p>
+    <div class="grid">
+      <div class="card"><div class="ico">&#127912;</div><h3>Wall Art &amp; Prints</h3><p>Posters, canvases &amp; framed art</p></div>
+      <div class="card"><div class="ico">&#128085;</div><h3>Apparel</h3><p>Tees, hoodies &amp; more</p></div>
+      <div class="card"><div class="ico">&#9749;</div><h3>Drinkware</h3><p>Mugs &amp; tumblers</p></div>
+      <div class="card"><div class="ico">&#127873;</div><h3>Accessories</h3><p>Totes, stickers, notebooks &amp; gifts</p></div>
+    </div>
+  </div></section>
 
-  <footer>
-    <p>NovaCache &nbsp;|&nbsp; Questions? <a href="mailto:christopher.d.raymond@gmail.com">christopher.d.raymond@gmail.com</a></p>
-  </footer>
-</div>
+  <section class="band"><div class="wrap">
+    <h2>Find your favorite</h2>
+    <p>Browse the full collection on our Etsy storefront.</p>
+    <a class="btn" href="https://www.etsy.com/shop/NovaCache" target="_blank" rel="noopener">Visit the NovaCache shop &rarr;</a>
+  </div></section>
+
+  <footer><div class="wrap">
+    <div class="links">
+      <a href="privacy-policy.html">Privacy Policy</a>
+      <a href="terms-of-service.html">Terms of Service</a>
+      <a href="refund-policy.html">Refund Policy</a>
+      <a href="ai-disclosure.html">AI Disclosure</a>
+    </div>
+    <p class="disc">&copy; 2026 NovaCache. Some products are created with the assistance of AI design tools.</p>
+  </div></footer>
 </body>
 </html>
