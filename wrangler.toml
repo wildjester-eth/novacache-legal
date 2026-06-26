@@ -1,4 +1,4 @@
-name = "novacache"
+name = "novacache-legal"
 compatibility_date = "2025-01-01"
 
 # Static-only site: no Worker script, Cloudflare serves these files directly.
